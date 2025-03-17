@@ -1,25 +1,36 @@
-Bike Sharing Dashboard
+# 🚴 Bike Sharing Dashboard
 
-📌 Deskripsi Proyek
+## 📌 Deskripsi Proyek
 
-Proyek ini adalah dashboard interaktif untuk menganalisis data penyewaan sepeda berdasarkan berbagai faktor seperti cuaca, jam penyewaan, dan jumlah pengguna. Dashboard ini dibuat menggunakan Streamlit dan memvisualisasikan data dengan Matplotlib dan Seaborn.
+**Bike Sharing Dashboard** adalah aplikasi berbasis **Streamlit** yang menampilkan visualisasi interaktif dari data penyewaan sepeda. Dashboard ini membantu pengguna dalam menganalisis pola penyewaan berdasarkan faktor seperti cuaca, jam penyewaan, dan jumlah pengguna.
 
-🚀 Cara Menjalankan Proyek
+## 📂 Fitur Utama
 
-1️⃣ Clone Repository GitHub
+✅ Visualisasi data penyewaan sepeda menggunakan **Matplotlib & Seaborn**  
+✅ Filter data berdasarkan berbagai kategori  
+✅ Antarmuka yang interaktif dan mudah digunakan  
 
-Pastikan Anda telah menginstal Git di komputer Anda. Kemudian jalankan perintah berikut di terminal:
+---
 
+## 🚀 Cara Menjalankan Proyek
+
+### 1️⃣ Clone Repository GitHub
+
+Pastikan Anda telah menginstal **Git** di komputer Anda. Kemudian jalankan perintah berikut di terminal:
+
+```sh
 # Clone repository
 git clone https://github.com/username/repo-name.git
 
 # Masuk ke folder proyek
 cd repo-name
+```
 
-2️⃣ Buat Virtual Environment (Opsional)
+### 2️⃣ Buat Virtual Environment (Opsional)
 
-Disarankan menggunakan virtual environment untuk menghindari konflik dependensi:
+Disarankan menggunakan **virtual environment** untuk menghindari konflik dependensi:
 
+```sh
 # Buat virtual environment
 python -m venv venv
 
@@ -29,54 +40,31 @@ venv\Scripts\activate
 
 # MacOS/Linux
 source venv/bin/activate
+```
 
-3️⃣ Instal Dependensi
+### 3️⃣ Instal Dependensi
 
-Pastikan Anda memiliki Python 3.8 atau lebih baru, lalu jalankan:
+Pastikan Anda memiliki **Python 3.8** atau lebih baru, lalu jalankan:
 
+```sh
 pip install -r requirements.txt
+```
 
-4️⃣ Jalankan Aplikasi Streamlit
+### 4️⃣ Jalankan Aplikasi Streamlit
 
 Masuk ke folder `dashboard` terlebih dahulu:
 
+```sh
 cd dashboard
-
-5️⃣ Jalankan Aplikasi Streamlit
-
 streamlit run dashboard.py
+```
 
 Aplikasi akan terbuka secara otomatis di browser dengan alamat:
 
-http://localhost:8501
+🔗 [http://localhost:8501](http://localhost:8501)
 
-🌐 Menjalankan di Streamlit Cloud
-
-Proyek ini juga dapat diakses secara online melalui Streamlit Community Cloud.
-
-🔗 Akses Dashboard: Klik di sini (ganti dengan link Streamlit Anda)
-
-Jika ingin menjalankan ulang aplikasi di Streamlit Cloud:
-
-Buka halaman Manage App di Streamlit Cloud.
-
-Klik Reboot App atau lakukan commit perubahan terbaru ke GitHub agar otomatis ter-update.
-
-🛠 Teknologi yang Digunakan
-
-Python
-
-Streamlit (untuk membuat dashboard interaktif)
-
-Matplotlib & Seaborn (untuk visualisasi data)
-
-Pandas (untuk manipulasi data)
-
-📝 Catatan
-
-Pastikan file dashboard/data_ready_day.csv dan dashboard/data_ready_hour.csv ada di dalam folder proyek.
-
-Jika menggunakan Streamlit Cloud, pastikan semua dependensi sudah ada di requirements.txt.
-
-Selamat mencoba! 🚀
-
+## 📞 **Kontak & Dukungan**
+Jika Anda memiliki pertanyaan atau saran, jangan ragu untuk menghubungi saya di:
+📧 Email: ikramsabila@gmail.com  
+🐙 GitHub: [Ikram-sabila](https://github.com/Ikram-sabila)  
+Terima kasih
